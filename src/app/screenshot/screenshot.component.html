@@ -1,0 +1,58 @@
+<div class="row">
+  <div class="column">
+    <img
+      src="https://cdn.pixabay.com/photo/2017/07/31/11/44/laptop-2557571__340.jpg"
+      alt="Nature"
+      onclick="myFunction(this);"
+    />
+  </div>
+  <div class="column">
+    <img
+      src="https://cdn.pixabay.com/photo/2016/11/08/05/10/asia-1807504__340.jpg"
+      alt="Snow"
+      onclick="myFunction(this);"
+    />
+  </div>
+  <div class="column">
+    <img
+      src="https://cdn.pixabay.com/photo/2016/11/27/21/49/girl-1863906__340.jpg"
+      alt="Mountains"
+      onclick="myFunction(this);"
+    />
+  </div>
+  <div class="column">
+    <img
+      src="https://cdn.pixabay.com/photo/2017/03/27/12/10/girl-2178297__340.jpg"
+      alt="Lights"
+      onclick="myFunction(this);"
+    />
+  </div>
+  <div class="column">
+    <img
+      src="https://cdn.pixabay.com/photo/2019/11/10/11/13/couple-4615557__340.jpg"
+      alt="Nature"
+      onclick="myFunction(this);"
+    />
+  </div>
+  <div class="column">
+    <img
+      src="https://cdn.pixabay.com/photo/2017/08/07/21/40/people-2608145__340.jpg"
+      alt="Nature"
+      onclick="myFunction(this);"
+    />
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn"
+    >&times;</span
+  >
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width: 100%" />
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>

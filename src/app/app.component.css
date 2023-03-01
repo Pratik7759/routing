@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .parent-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+  }
+  
+  .navbar-container {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: black;
+  }
+  
+  .logo {
+    font-size: 25px;
+  }
+  
+  .links ul {
+    display: flex;
+    margin-left: 500px;
+  }
+  .links ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .links ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 25px;
+  }
+
+  /* .bgimage {
+    height:100vh;
+    background: url('https://cdn.pixabay.com/photo/2015/02/19/00/38/peru-641632__340.jpg');
+    background-size:cover;
+    position:relative;
+} */
