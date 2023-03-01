@@ -1,6 +1,6 @@
 .bgimage {
     height:88.73vh;
-    background: url('https://cdn.pixabay.com/photo/2023/01/29/10/09/street-7752940__340.jpg');
+    background: url('\src\assets\images\homeImage.jpg');
     background-size:cover;
     position:relative;
 }
